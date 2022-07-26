@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#warpheder{
+    width: 85%;
+    background-color: hsl(184, 83%, 49%);
+    height: 70px;
+    margin: auto;
+}
+/* aca pongo el espacio donde va a estar el logo */
+#logo{
+    width: 35%;
+    height: 70px;
+    background-color: black;
+    float: left;
+    font-size: 40px;
+    padding-top: 10px;
+    box-sizing: border-box;
+} 
+/* aca modifico la letra */
+div nav a{
+    color: rgb(214, 11, 109);
+    text-decoration: none;
+}
+/* aca pongo el espacio donde va a estar el menu */
+#menu{
+    width: 65%;
+    height: 70px;
+    background-color: brown;
+    /* para colocar el cuadro de un lado */
+    float: right;
+    /* colocar texto de un lado */
+    text-align: right;
+    /* las dos siguientes para centrar el texto y acomodar el cuadro */
+    padding: 24px;
+    box-sizing: border-box;
+}
+/* aca modifico la letra */
+ul a{
+    color: rgb(23, 2, 2);
+    text-decoration: none;
+    /* sacar subrrallado */
+    text-transform: uppercase;
+    /* texto en mayuscula */
+    padding: 30px;
+    /* separacion de palabras */
+    font-weight: bold;
+    /* letra negrita  */
+    letter-spacing: 1px;
+}
+/* cuando paso por las palabras, cambian de color */
+ul a:hover{
+color: rgb(193, 220, 20);
+}
+
