@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 #warpheder{
@@ -20,7 +21,7 @@
     box-sizing: border-box;
 } 
 /* aca modifico la letra */
-div nav a{
+ a{
     color: rgb(214, 11, 109);
     text-decoration: none;
 }
@@ -55,3 +56,33 @@ ul a:hover{
 color: rgb(193, 220, 20);
 }
 
+#main {
+    width: 100%;
+    background-color: hsl(187, 4%, 42%);
+    height: 500px;
+    margin-top: 1em;
+}
+
+#sidebar {
+    width: 25%;
+    height: 500px;
+    background-color: rgb(231, 5, 5);
+    margin-left: 10em;
+    margin-bottom: 3em;
+    float: left;
+    box-sizing: border-box;
+}
+.textosidebar {
+    color: rgb(7, 6, 6);
+    
+
+}
+#content {
+    width: 50%;
+    height: 500px;
+    background-color: rgb(231, 5, 5);
+    margin-right: 10em;
+    margin-bottom: 3em;
+    float: right;
+   
+}

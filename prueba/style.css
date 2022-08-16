@@ -1,0 +1,175 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    background-color: rgb(112, 114, 116);
+    flex-direction: column;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    width: 100%;
+    display: flex;
+    min-height: 70px;
+    justify-content: space-between;
+    background-color: rgb(159, 173, 189);
+    align-items: center;
+    padding: 10px;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    height: 70px;
+    margin-right: 10px;
+}
+nav a{
+    font-weight: 600px;
+    padding-right: 50px;
+}
+nav a:hover{
+    color: yellowgreen;
+}
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px   0px;
+    }
+    .caja2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cajita1{
+        height: 50%;
+    }
+    .cajita2{
+        height: 50%;
+    }
+    .fin{
+        align-items: center;
+    }
+}
+.C1{
+    width: 100%;
+    height: 600px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    
+}
+.caja1{
+    height: 100%;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url("mp.jpg") 
+    
+    
+    
+}
+.caja2{
+    display: flex;
+    background-color: aliceblue;
+    height: 600px;
+    margin: 20px;
+    
+    
+}
+.cajita1{
+    width: 100%;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(r15.jpg);
+}
+.cajita2{
+    width: 100%;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+    background-image: url(micra.jpg);
+}
+button{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    background-color: rgb(255, 254, 254);
+    color: rgb(17, 29, 39);
+    font-size: 15px;
+    cursor: pointer;
+    transition: .5s ease all;
+    position: relative;
+}
+button:hover{
+    background-color: rgb(122, 207, 244);
+}
+
+.fin{
+    height: auto;
+    margin-right: 20px ;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    background-color: rgb(112, 114, 116 );
+    font-size: 20px;
+    justify-content:center;
+}
+.fin1{
+    height: 200px;
+    width: 35%;
+    margin-right: 5px;
+    background-color: rgb(159, 173, 189);
+    display: flex;
+    border-style: solid;
+    border-width: 2px;
+}
+.fin2{
+    height: 200px;
+    width: 35%;
+    margin-right: 5px;
+    background-color: rgb(159, 173, 189);
+    display: flex;
+    border-style: solid;
+    border-width: 2px;
+}
+.fin3{
+    height: 200px;
+    width: 35%;
+    background-color: rgb(159, 173, 189);
+    display: flex;
+    border-style: solid;
+    border-width: 2px;
+}
+img{
+    width: 100%;
+}
